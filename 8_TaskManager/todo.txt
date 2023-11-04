@@ -1,0 +1,23 @@
+1. Umyc naczynia
+2. Clean dishes
+new_task
+new_task
+Wash floor
+clear bathroom
+wash floor
+wash bathroom
+wash floor
+wash windows
+1
+2
+1. 2
+2. 3
+2
+3
+1
+2
+2
+1
+1
+ss
+1
