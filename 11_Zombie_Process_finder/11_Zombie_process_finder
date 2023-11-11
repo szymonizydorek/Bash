@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Get the process statuses
+statuses=$(ps aux | awk '{print $8}')
+
+# Check if "Z" (Zombie) is present in the statuses
+if echo "$statuses" | grep -q "Z"; then
+    # Print the message for each Zombie process
+    echo "There is a Zombie process:"
+    echo "$statuses" | awk '$8=="Z" {print "  Process ID: " $2}'
+else
+    echo "No Zombie processes found."
+fi
